@@ -5,7 +5,6 @@ import (
 	"net"
 	"strconv"
 	"strings"
-
 	"github.com/Knetic/govaluate"
 )
 
@@ -30,6 +29,7 @@ func main() {
 
 		if err != nil {
 			fmt.Println(err)
+			
 		}
 
 		equations := strings.Split(string(data), ",")
